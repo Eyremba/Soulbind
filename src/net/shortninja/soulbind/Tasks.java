@@ -14,6 +14,12 @@ public class Tasks
 	
 	public Tasks()
 	{
+		/*
+		* The overall reason for having a timer to check for soulbound items is to prevent any miscalculations if the server
+		* happens to crash at a bad time or something. Soulbound items may also be removed in "incorrect" manners, such as
+		* deleting them in a creative inventory or by using a clear inventory command, so this will prevent any errors regarding
+		* that.
+		*/
 		new BukkitRunnable()
 		{
 			private int interval = 0;
