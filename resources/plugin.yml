@@ -1,0 +1,13 @@
+name: Soulbind
+version: 1.0
+description: Extremely configurable and secure soulbind plugin
+author: Shortninja
+website: http://shortninja.net
+main: net.shortninja.soulbind.Soulbind
+commands:
+  soulbind:
+    description: Soulbinds an item.
+    aliases: [sb]
+  unsoulbind:
+    description: Removes soulbounding from an item.
+    aliases: [unsb]

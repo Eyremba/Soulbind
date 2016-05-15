@@ -1,0 +1,54 @@
+# Made with love by Shortninja - ♥
+
+############################################################
+# +------------------------------------------------------+ #
+# |                      General                         | #
+# +------------------------------------------------------+ #
+############################################################
+
+# The permission a player must have to use soulbind features
+soulbind-use-permission: "soulbind.use"
+
+# The permission for limiting a player's soulbinds.
+# Zero as the value will represent unlimited.
+# Value is limited to 1,000.
+soulbind-limit-permission: "soulbind.limit.[]"
+
+# The lore that a soulbound item has.
+# WARNING: If you change this, all other soulbound items will break!
+soulbind-lore: "&9Soulbound to &7%player%"
+
+# The interval, in seconds, at which the plugin checks soulbind information.
+check-interval: 5
+
+# The interval, in seconds, at which the plugin autosaves data.
+# Set to zero to disable this; the plugin will only save when the server stops/reloads.
+autosave-interval: 1800
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Messages                         | #
+# +------------------------------------------------------+ #
+############################################################
+
+# If you would like to disable a message, just leave it blank!
+
+prefix: "&7[&dSoulbind&7]"
+
+soulbind-applied: "&bA soulbind has been applied to the item in your hand!"
+soulbind-given: "&bYou soulbound &7%player%'s &bitem!"
+soulbind-removed: "&bThe soulbind on the item in your hand has been removed!"
+must-hold-item: "&cYou must hold the item that you want to soulbind!"
+was-not-holding: "&7%player &bwas not holding an item!"
+already-soulbound: "&cThat item is already soulbound!"
+reached-limit: "&cYou have reached the limit for soulbounded items!"
+no-stacks: "&cYou are not allowed to soulbind stacks greater than one!"
+no-soulbind-found: "&cThat item has no soulbind!"
+no-dropping: "&cYou are not allowed to drop items bounded to your soul!"
+no-pickup: "&cYou cannot pickup this item because it is not binded to your soul."
+no-move: "&cYou cannot move soulbound items into containers!"
+no-permission: "&cYou do not have permission!"
+unknown-command: "&cUnknown command!"
+invalid-arguments: "&cToo many arguments!"
+player-is-offline: "&cThat player is offline!"
+must-be-ingame: "&cYou must be ingame to run that command!"
